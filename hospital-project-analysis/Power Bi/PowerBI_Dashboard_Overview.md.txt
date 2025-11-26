@@ -1,0 +1,55 @@
+Power BI Dashboard – Elective Hip Replacement (New York State)
+
+This Power BI report analyzes inpatient stays for elective hip replacement surgeries across New York State. It highlights differences in length of stay (LOS), cost per discharge, patient characteristics, and hospital performance.
+
+Dashboard Pages Included
+
+1. Home Page
+Provides a quick summary:
+- Average LOS Days
+- Average Cost per Discharge
+- Total Hospitals
+- Total Discharges
+
+2. LOS Comparison
+Shows:
+- Factors influencing Length of Stay (severity, risk of mortality, region)
+- Average LOS Days by hospital
+- Top 3 and bottom 3 hospitals by LOS
+
+3. Cost Comparison
+Shows:
+- Factors influencing cost per discharge
+- Relationship between LOS and cost per hospital
+- Highest and lowest cost hospitals
+
+4. Hospital Profile
+For any selected hospital:
+- Average LOS and Cost
+- Diagnosis categories
+- Severity of illness distribution
+- Risk of mortality distribution
+- Patient disposition
+
+Key Analysis Questions Answered
+
+1. What is the average inpatient Length of Stay statewide?
+2. Which hospitals have the longest and shortest average LOS?
+3. What factors increase or decrease LOS?
+4. What is the average cost per discharge in the state?
+5. Which hospitals are the most and least expensive?
+6. Does longer LOS always mean higher cost?
+7. What factors drive costs across regions?
+8. For each hospital, what are the top diagnosis categories?
+9. How do severity and mortality levels differ across hospitals?
+10. How are patients discharged (home, rehab, skilled nursing, etc.)?
+
+## Power BI Insights
+- Average LOS varies widely across hospitals.
+- Severity of illness is the strongest driver of LOS.
+- Extreme severity cases have the highest average cost.
+- LOS and cost are positively related but not perfectly aligned.
+- Month-to-month variability is high across counties.
+- Some hospitals consistently perform better on LOS despite high discharge volume.
+
+

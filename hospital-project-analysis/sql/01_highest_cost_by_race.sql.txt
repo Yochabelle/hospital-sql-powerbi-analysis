@@ -1,0 +1,9 @@
+Which race or ethnicity group has the highest total cost?
+
+SELECT MAX(total_costs) AS max_cost, race
+FROM hospital_hip_discharges
+GROUP BY race
+ORDER BY max_cost DESC
+LIMIT 1
+
+Insights: White patients show the highest recorded maximum total_costs in this dataset

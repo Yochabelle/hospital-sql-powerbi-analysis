@@ -1,0 +1,22 @@
+Which severity level has the highest average total_costs?
+
+SELECT 
+    apr_severity_of_illness_description AS severity,
+    AVG(total_costs) AS avg_total_costs
+FROM hospital_hip_discharges
+GROUP BY apr_severity_of_illness_description
+ORDER BY avg_total_costs DESC
+LIMIT 1;
+OR
+SELECT severity, AVG (total_costs) AS avg_total_costs
+FROM (SELECT DISTINCT apr_severity_of_illness_description AS severity, total_costs
+FROM hospital_hip_discharges
+GROUP BY total_costs,apr_severity_of_illness_description 
+) AS Temp_table
+GROUP BY severity
+ORDER BY avg_total_costs DESC
+LIMIT 1
+
+Insight:
+ Extreme severity cases produce the highest average costs, as expected due to complexity.
+

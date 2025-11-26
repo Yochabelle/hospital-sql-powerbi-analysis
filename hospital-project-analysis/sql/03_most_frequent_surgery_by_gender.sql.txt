@@ -1,0 +1,13 @@
+ What is the most commonly done surgery, and which gender does it the most?
+
+
+SELECT gender, ccs_diagnosis_description,ccs_diagnosis_code, MAX(frequency) AS max_frequency
+FROM (SELECT gender, ccs_diagnosis_description, ccs_diagnosis_code, COUNT(*) AS frequency
+FROM hospital_hip_discharges
+GROUP BY ccs_diagnosis_description, ccs_diagnosis_code, gender 
+) AS T2
+GROUP BY ccs_diagnosis_description, ccs_diagnosis_code, gender
+ORDER BY max_frequency DESC
+LIMIT 2
+
+Insights: The most frequent surgery is osteoarthritis-related, with women undergoing it more often.

@@ -1,0 +1,49 @@
+Project Documentation — Hospital Inpatient Analysis
+SQL Insights
+Q1. Which race has the highest total cost?
+
+White patients show the highest total_costs.
+This does not imply causation — missing variables like insurance, procedure complexity, and hospital type limit interpretation.
+
+Q2. Which gender has the highest average length of stay?
+
+Women have slightly higher average LOS.
+The dataset cannot confirm clinical reasons; more data is needed.
+
+Q3. What surgery is most common, and which gender undergoes it most?
+
+Osteoarthritis surgeries occur the most.
+Women undergo these procedures more frequently.
+This matches external trends but cannot be explained solely from this dataset.
+
+Q4. Which severity level has the highest average hospital cost?
+
+Extreme severity cases have the highest average cost.
+Expected due to resource intensity, but cost drivers cannot be isolated from this dataset.
+
+Power BI Insights
+Key Questions Answered
+
+Statewide average LOS
+Hospitals with longest/shortest LOS
+Drivers of LOS
+Statewide average cost per discharge
+Most and least expensive hospitals
+Relationship between LOS and cost
+Regional cost differences
+Top diagnosis categories
+Severity/mortality patterns
+Patient discharge types
+
+
+Summary of Findings
+
+Avg LOS statewide: 2.65 days
+Avg cost per discharge: ~$21K
+Highest LOS hospitals: Kings County Hospital, Interfaith Medical Center
+Highest cost hospitals: NYU Lutheran, Olean General
+LOS is driven by: extreme severity & extreme mortality
+Cost is influenced by: region & severity
+Most common diagnoses: Osteoarthritis, complications
+Discharge patterns: Home/self-care & skilled nursing dominate
+
