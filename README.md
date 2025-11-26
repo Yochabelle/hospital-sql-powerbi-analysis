@@ -1,6 +1,6 @@
  Hospital SQL & Power BI Analysis Project
 
-This project analyzes hospital inpatient discharge data using SQL and Power BI. It explores patterns in length of stay (LOS), total costs, severity levels, diagnoses, and hospital performance. The project demonstrates intermediate SQL querying skills and intermediate Power BI dashboard design.
+This project analyzes hospital inpatient discharge data using SQL and Power BI. It explores patterns in length of stay (LOS), total costs, severity levels, diagnoses, and hospital performance. The project demonstrates intermediate SQL querying skills and intermediate Power BI dashboard design(Work in progress)
 
 ## Project Structure
 /sql  
